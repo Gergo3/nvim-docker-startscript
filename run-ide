@@ -2,5 +2,5 @@
 # Pull latest image, run the IDE container, and clean up orphan containers
 
 sudo docker compose pull ide && \
-sudo docker compose run ide --remove-orphans
+sudo docker compose run --remove-orphans ide
 
